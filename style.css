@@ -8,7 +8,7 @@
 }
 
 body {
-    background: url('file:///C:/Users/protd/Pictures/PH-L-2350%20(1).jpg') no-repeat center center fixed;
+    background: url("assets/episk.jpg") no-repeat center center fixed;
     background-size: auto auto;
     background-size: 110% auto;
     margin: 0;
