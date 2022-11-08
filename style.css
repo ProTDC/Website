@@ -8,11 +8,19 @@
 }
 
 body {
-    background-image: url('https://i.kym-cdn.com/entries/icons/original/000/034/421/cover1.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background: url('https://i.kym-cdn.com/entries/icons/original/000/034/421/cover1.jpg') no-repeat center center fixed;
+    background-size: auto auto;
+    background-size: 100% auto;
+    margin: 0;
+    padding: 0;
     color: white;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background-size: cover;
+        background-attachment: fixed;
+    }
 }
 
 a:link {
